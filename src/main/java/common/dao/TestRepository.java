@@ -1,0 +1,7 @@
+package common.dao;
+
+import common.entity.Product;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface TestRepository extends JpaRepository<Product, Integer> {
+}
